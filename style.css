@@ -29,7 +29,7 @@ border: solid 2px #304438;
 }
 
 #banner {
-    background: url(img2.jpg);
+    background: url(img12.jpg);
     height: 90vh;
     background-size: cover;
     background-position: center;
@@ -81,7 +81,7 @@ section{
     font-family: 'Times New Roman', Times, serif;
 }
 #about {
-    background-color: #120553;
+    background-color: #f8e7c6;
 }
 
 .testimonial {
@@ -145,6 +145,45 @@ section{
     color: #fff;
 }
 
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #304438;
+}
+#footer ul.list-unstyled li a{
+    color: #fff;
+    text-decoration: none;
+}
 
+#footer ul.list-unstyled li:hover a{
+    color: #f8e7c6;
+}
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 40px;
+    }
+    
+    #about h2{
+        font-size: 40px;
+    }
 
+    #Home .col-lg-3{
+     display: flex;
+     justify-content: center;
+     align-items:center ;
+     margin-bottom: 20px;
+    }
+   
+    #about .eyyy{
+        padding: 40px;
+    }
 
+    #about .ngee{
+        padding: 300px;
+    }
+
+}
+
+#about {
+    overflow-x: hidden;
+}
